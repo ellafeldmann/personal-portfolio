@@ -43,6 +43,7 @@ body {
 
 .nav-bar ul.active {
   visibility: visible;
+  z-index: 1;
 }
 
 .nav-bar ul li {
@@ -101,10 +102,6 @@ body {
 .toggle.active:before {
   transform: rotate(405deg);
   background: black;
-}
-
-.menu {
-  z-index: 1;
 }
 
 .overlay {
