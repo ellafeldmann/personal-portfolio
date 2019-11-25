@@ -30,7 +30,8 @@ body {
   z-index: 1;
 }
 
-/* .nav-bar ul {
+
+.nav-bar ul {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -39,10 +40,6 @@ body {
   margin: 0;
   padding: 0;
   visibility: hidden;
-}
-
-.nav-bar ul.active {
-  visibility: visible;
 }
 
 .nav-bar ul li {
@@ -56,7 +53,7 @@ body {
   color: white;
   display: block;
   letter-spacing: 1px;
-} */
+}
 
 .menu ul {
   position: fixed;
@@ -138,7 +135,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: rgba(1, 1, 1, 0.5);
+  background: black;
   transition: transform 0.5s;
 }
 
