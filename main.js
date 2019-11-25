@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.toggle').click(function(){
         $('.toggle').toggleClass('active')
         $('.overlay').toggleClass('active')
-        $('.nav-bar ul').toggleClass('active')
+        $('.menu ul').toggleClass('active')
 
     })
 });
