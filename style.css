@@ -227,19 +227,24 @@ p,
   align-items: center;
 }
 
-.project-grid div {
-  background: lightgray;
+.project-grid img {
+  width: 80vw;
+  height: 80vw;
   margin-left: 30px;
   margin-right: 30px;
-  height: 80vw;
-  margin-top: 80px;
+  margin-top: 70px;
+}
+.project-grid div {
+  margin:0;
+  padding:0;
 }
 
 .project-grid p {
-  width: 85vw;
+  width: 100%;
   text-align: center;
   margin: 0;
-  margin-top: calc(80vw + 20px);
+  padding:0;
+  margin-top: 25px;
 }
 
 /*--------------------------------------- About Page Style ---------------------------------------*/
@@ -366,7 +371,7 @@ p,
 
   .my-intro p {
     width: 60vh;
-    font-size: 2.3vh;
+    font-size: 2.2vh;
   }
 
   /* --- project grid --- */
@@ -377,24 +382,32 @@ p,
     grid-template-columns: 60px 1fr 1fr 60px;
     grid-template-rows: 40vmax 40vmax;
     grid-row-gap: 90px;
-    grid-column-gap: 30px;
-    margin-top: 100px;
+    grid-column-gap: 40px;
+    margin-top: 80px;
+  }
+
+  .project-grid img {
+    margin:0;
+    height: auto;
+    width: 100%;
   }
 
   .project-grid div {
-    background: pink;
+    /* background: purple; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
+    justify-content: center;
     margin: 0;
     height: 100%;
+    width:100%;
   }
 
   .project-grid p {
     width: 100%;
     margin: 0;
-    margin-top: calc(40vmax + 20px);
-    font-size: 2.2vmin;
+    margin-top: 20px;
+    font-size: 2.1vmin;
     font-weight: 500;
   }
 
@@ -513,7 +526,7 @@ p,
   /* --- footer --- */
 
   .footer {
-    font-size: 2.3vh;
+    font-size: 2.2vh;
   }
 
   .footer {
@@ -535,7 +548,7 @@ p,
     width: 400px;
     margin: 0;
     margin-left: 30px;
-    font-size: 2.3vh;
+    font-size: 2.2vh;
   }
 
   .about #p2 {
