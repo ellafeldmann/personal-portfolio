@@ -393,7 +393,6 @@ p,
   }
 
   .project-grid div {
-    /* background: purple; */
     display: flex;
     flex-direction: column;
     align-content: center;
